@@ -13,12 +13,15 @@
         height: 100%;
       }
       #map-canvas{
-        height: 90%;
-        width: 90%;
+        width: 50%;
       }
       html, body, #map-canvas {
         margin: 0px;
         padding: 0px
+      }
+      #map-col-wrap {
+        display: inline-flex;
+        justify-content: space-between;
       }
     </style>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUZ6tL2MH4kFzL_Qq8pnVyD8z8QV01CaU"></script>
@@ -47,7 +50,14 @@
     <main class="w-5/4">
       <img src="/assets/top-bar.png" style="width: 100vw;">
       <!-- <img src="/assets/second-top-bar.png" style="width: 100vw;"> -->
-      <div id="map-canvas"></div>
+      <div id="map-col-wrap">
+        <div>
+          <p>Založte si komunitnú záhradu a vytvorte tak miesto pre aktívny susedský život. Zistite ako správne osloviť ľudí a vytvoriť si so susedmi občianske združenie. Naplánujte si svoju záhradu, jej organizáciu a financovanie. Vyberte si z mestských pozemkov, ktoré sme predpripravili pre jednoduchší a rýchlejší proces alebo navrhnite vlastný.</p>
+          <p>Komunitná záhrada je miestom pre aktívny susedský život. Záhradkárčenie slúži ako nástroj na prepájanie susedov a vytvorenie otvoreného, bezpečného a inkluzívneho priestoru. Záhradkárska činnosť je nekomerčná a všetky príspevky smerujú k udržiavaniu a rozvoju spoločného priestoru.</p>
+          <p>Komunitná záhrada je priestor na relax, zdravý pohyb, aktivity pre všetky vekové kategórie. Na záhrade sa dajú organizovať najrôznejšie spoločenské akcie: narodeninová oslava, grilovacia párty, workshop, divadlo či výstava. Záhrada slúži aj na vzdelávanie, podporu biodiverzity a oživenie nevyužitých priestorov v meste.</p>
+        </div>
+        <div id="map-canvas"></div>
+      </div>
     </main>
     <footer></footer>
   </body>
