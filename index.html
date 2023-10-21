@@ -18,7 +18,10 @@
       var infowindow;
       function initialize() {
         var myAddress = new google.maps.LatLng(48.1562374, 17.1116045);
-        var mapOptions = {gestureHandling: 'cooperative', center: myAddress}
+        var mapOptions = {
+          gestureHandling: 'cooperative',
+          center: myAddress
+        }
 
         map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
