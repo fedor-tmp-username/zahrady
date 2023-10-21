@@ -8,9 +8,15 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
     <style>
-      html, body, #map-canvas {
+      html, body{ 
+        width: 100%;
+        height: 100%;
+      }
+      #map-canvas{
         height: 90%;
-		    width: 90%;
+        width: 90%;
+      }
+      html, body, #map-canvas {
         margin: 0px;
         padding: 0px
       }
@@ -39,6 +45,8 @@
   <body>
     <header></header>
     <main class="w-5/4">
+      <img src="/assets/top-bar.png" style="width: 100vw;">
+      <!-- <img src="/assets/second-top-bar.png" style="width: 100vw;"> -->
       <div id="map-canvas"></div>
     </main>
     <footer></footer>
