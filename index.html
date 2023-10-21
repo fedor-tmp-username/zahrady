@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <title>Embedded Map</title>
     <link rel="stylesheet" href="./style.css"> 
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png" class="jsx-1235568105">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png" class="jsx-1235568105">
     <style>
       html, body, #map-canvas {
         height: 90%;
@@ -31,10 +34,11 @@
       }
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
     <header></header>
-    <main>
+    <main class="w-5/4">
       <div id="map-canvas"></div>
     </main>
     <footer></footer>
