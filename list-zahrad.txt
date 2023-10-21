@@ -7,3 +7,9 @@
         - 48.1496601, 17.0582270
     - www.kozavhaji.eu
         - 48.1161990, 17.1179036
+
+
+- https://www.facebook.com/komunitne.zahradyBA/
+    - https://staratrznica.sk/sk/zelena-trznica
+        - Námestie SNP 25, Bratislava, Slovakia
+    
