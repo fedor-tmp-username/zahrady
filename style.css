@@ -1,0 +1,43 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#map-canvas {
+  width: 50%;
+}
+html,
+body,
+#map-canvas {
+  margin: 0px;
+  padding: 0px;
+}
+#map-col-wrap {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20 160 0 190;
+}
+
+.text-section {
+  flex: 1;
+  padding: 20px;
+}
+
+.text-area {
+  padding: 0 60 0 20;
+}
+
+.image-section {
+  flex: 1;
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
